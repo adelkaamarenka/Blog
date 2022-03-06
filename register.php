@@ -21,7 +21,7 @@
             <input type="password" name="Password" id="Password">
             <label for="password-rep">Repeat your password: </label>
             <input type="password" name="rep-password" id="rep-password">
-            <button type="submit" name="button" class="sign-in-button">Sign in</button>
+            <button type="submit" name="button" class="form-button register">Sign in</button>
         </form>
     </div>
     

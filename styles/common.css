@@ -5,6 +5,9 @@
   --lighter-color: #ccaee0;
   --font: "Rubik", sans-serif;
   -webkit-tap-highlight-color: transparent;
+  --header-font-size: 40px;
+  --middle-font-size: 18px;
+  --small-font-size: 10px;
 }
 
 * {
@@ -52,19 +55,22 @@ input {
   border-radius: 30px;
   padding: 0 1.5rem;
   margin-top: 0.5rem;
-  font-size: 1.3rem;
+  font-size: var(--middle-font-size);
 }
 
-.sign-in-button {
-  border: 4px solid var(--main-color);
-  height: 60px;
+.form-button {
+  border: 2px solid var(--main-color);
   width: 35%;
   border-radius: 30px;
   background: var(--main-color);
   font-family: var(--font);
-  font-size: 1.3rem;
+  font-size: var(--middle-font-size);
   color: white;
   margin: 0 auto;
+}
+
+.register {
+  height: 60px;
 }
 
 a {

@@ -19,10 +19,13 @@
             <input type="text" name="email" id="email">
             <label for="Password">Password: </label>
             <input type="password" name="Password" id="Password">
+            <div class="login-buttons">
+                <button type="submit" name="submit" class="form-button">Log in</button>
+                <button class="forgot form-button">Forgot your password?</button>
+            </div>
         </form>
-        <div class="forgot"><a href="#" class="forgot-text"><p>Forgot your password?</p></a></div>
-        <p>Don't have an account yet?</p>
-        <div class="register"><a href="./register.php"><p>Sign up</p></a></div>
+            <p class="no-acc">Don't have an account yet?</p>
+            <button class="register form-button">Sign up</button>
     </div></div>
 
 </body>
