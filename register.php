@@ -14,14 +14,14 @@
     <div class="wrapper">
         <div class="box">
         <h1 class="header">Register</h1>
-        <form action="register.inc.php" method="post" class="form">
+        <form action="./include/register.inc.php" method="post" class="form">
             <label for="email">Email: </label>
             <input type="text" name="email" id="email">
-            <label for="Password">Password: </label>
-            <input type="password" name="Password" id="Password">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
             <label for="password-rep">Repeat your password: </label>
             <input type="password" name="rep-password" id="rep-password">
-            <button type="submit" name="button" class="form-button register">Sign in</button>
+            <button type="submit" name="submit" class="form-button register">Sign in</button>
         </form>
     </div>
     

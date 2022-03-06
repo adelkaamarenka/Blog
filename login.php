@@ -14,7 +14,7 @@
     <div class="wrapper">    
         <div class="box">
         <h1 class="header">Log in</h1>
-        <form action="/" method="post" class="form">
+        <form action="./include/login.inc.php" method="post" class="form">
             <label for="email">Email: </label>
             <input type="text" name="email" id="email">
             <label for="Password">Password: </label>
