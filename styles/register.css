@@ -11,15 +11,6 @@
   font-size: 3rem;
 }
 
-.form {
-  height: 50%;
-}
-
 input {
   margin-bottom: 1rem;
-}
-
-.error {
-  height: 5%;
-  width: 65%;
 }

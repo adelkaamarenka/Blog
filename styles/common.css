@@ -55,15 +55,16 @@ input {
   font-size: 1.3rem;
 }
 
-.register {
+.sign-in-button {
   border: 4px solid var(--main-color);
-  height: 10%;
+  height: 60px;
   width: 35%;
   border-radius: 30px;
   background: var(--main-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: var(--font);
+  font-size: 1.3rem;
+  color: white;
+  margin: 0 auto;
 }
 
 a {
