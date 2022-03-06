@@ -1,6 +1,6 @@
 @import "./common.css";
 
-body {
+.body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,6 @@ body {
 }
 
 input {
-  height: 30%;
   margin-bottom: 1rem;
 }
 
