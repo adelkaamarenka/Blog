@@ -1,3 +1,5 @@
+    <link rel="stylesheet" href="./styles/header.css">
+    
     <header>
       <div class="header-content">
         <h1 class="logo">TestWebsite</h1>
