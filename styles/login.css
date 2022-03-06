@@ -1,0 +1,60 @@
+@import "./common.css";
+
+.header {
+  font-size: 3rem;
+}
+
+.form {
+  height: 40%;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 25%;
+  width: 100%;
+  border-color: var(--main-color);
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.register {
+  border: 4px solid var(--main-color);
+  height: 10%;
+  width: 35%;
+  border-radius: 30px;
+  background: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgot {
+  border: 2px solid var(--main-color);
+  height: 7%;
+  width: 35%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.forgot-text {
+  color: var(--main-color);
+}
+
+a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
