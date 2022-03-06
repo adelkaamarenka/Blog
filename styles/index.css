@@ -1,0 +1,35 @@
+@import "./common.css";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 60%;
+  align-items: center;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  height: 30%;
+  width: 100%;
+}
+
+.button {
+  border-radius: 50px;
+  border: 4px solid var(--main-color);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.sign-up {
+  background: var(--main-color);
+}
+
+.log-in-text {
+  color: var(--main-color);
+}
