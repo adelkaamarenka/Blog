@@ -11,7 +11,7 @@
     <?php
       include_once 'header.php'
       ?>
-    <div class="website-content">
+    <div class="wrapper">
       <div class="main-content"></div>
     </div>
   </body>
