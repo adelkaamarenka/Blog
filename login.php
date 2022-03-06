@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
-    <div class="box">
+    <?php
+        include_once 'header.php'
+    ?>
+    <div class="wrapper">    
+        <div class="box">
         <h1 class="header">Log in</h1>
         <form action="/" method="post" class="form">
             <label for="email">Email: </label>
@@ -19,6 +23,7 @@
         <div class="forgot"><a href="#" class="forgot-text"><p>Forgot your password?</p></a></div>
         <p>Don't have an account yet?</p>
         <div class="register"><a href="./register.php"><p>Sign up</p></a></div>
-    </div>
+    </div></div>
+
 </body>
 </html>

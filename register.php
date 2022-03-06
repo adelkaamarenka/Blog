@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="./styles/register.css">
 </head>
 <body>
-    <div class="box">
+        <?php
+        include_once 'header.php'
+    ?>
+    <div class="wrapper">
+        <div class="box">
         <h1 class="header">Register</h1>
         <form action="/" method="post" class="form">
             <label for="email">Email: </label>
@@ -20,6 +24,7 @@
         </form>
         <div class="error"></div>
         <div class="register"><a href="./registered.php"><p>Register</p></a></div>
-    </div>
+    </div></div>
+    
 </body>
 </html>
