@@ -24,7 +24,7 @@
         </form>
         <div class="error"></div>
         <div class="register"><a href="./registered.php"><p>Register</p></a></div>
-    </div></div>
+    </div>
     
 </body>
 </html>
