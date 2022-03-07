@@ -1,5 +1,6 @@
 <?php
 
+
 class SignupCont {
     private $email;
     private $password;

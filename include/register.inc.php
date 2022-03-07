@@ -9,8 +9,8 @@ $pwd = $_POST["password"];
 $pwdrepeat = $_POST["rep-password"];
 
 
-require "../classes/signup-cont-classes.php";
-require "../classes/signup-classes.php";
+require "../classes/SingupCont.classes.php";
+require "../classes/UserData.classes.php";
 
 $signup = new SignupCont($email, $pwd, $pwdrepeat);
 

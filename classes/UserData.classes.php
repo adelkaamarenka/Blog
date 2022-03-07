@@ -1,6 +1,6 @@
 <?php
 
-require "dbh.classes.php";
+require "Dbh.classes.php";
 
 class UserData extends Dbh {
     
@@ -22,7 +22,7 @@ class UserData extends Dbh {
         $stmt->bind_param("s", $email);
         
         $stmt->execute();
-        $stmt->get_result();
+        $result = $stmt->get_result();
         $data = $result->fetch_assoc(); 
 
         if ($this->con->affected_rows == 0) {
