@@ -18,7 +18,7 @@
             <label for="email">Email: </label>
             <input type="text" name="email" id="email">
             <label for="password">Password: </label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" pattern="^[a-zA-Z0-9_!@#$%]*$" title="You can use upper- and lowercase letters, numbers, and these symbols: _ ! @ # $ %">
             <label for="password-rep">Repeat your password: </label>
             <input type="password" name="rep-password" id="rep-password">
             <button type="submit" name="submit" class="form-button register">Sign in</button>
