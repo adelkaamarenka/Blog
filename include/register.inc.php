@@ -9,8 +9,8 @@ $pwd = $_POST["password"];
 $pwdrepeat = $_POST["rep-password"];
 
 
-include "../classes/signup-cont-classes.php";
-include "../classes/signup-classes.php";
+require "../classes/signup-cont-classes.php";
+require "../classes/signup-classes.php";
 
 $signup = new SignupCont($email, $pwd, $pwdrepeat);
 
@@ -30,3 +30,7 @@ if ($signup->invalidPassword()) {
 if ($signup->passwordsDontMatch()) {
     echo "passwords dont match";
 }
+
+$obj = new UserData();
+print_r($obj->getUser("users"));
+print_r($obj->UserExists("users", $email));
