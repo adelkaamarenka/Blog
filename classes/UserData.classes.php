@@ -30,6 +30,7 @@ class UserData extends Dbh {
         }
         else {
             echo "user exists";
+            return true;
         }
     }
 }
