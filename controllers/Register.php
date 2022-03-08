@@ -43,3 +43,5 @@ User::create([
     'email' => $email,
     'password' => $pwd,
 ]);
+
+header("location: ../login.php?resp='registered'");

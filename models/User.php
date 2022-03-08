@@ -4,9 +4,9 @@ require_once __DIR__ . '/../controllers/DB.php';
 
 class User {
 
-    protected $id;
+    public $id;
     protected $email;
-    protected $password_hash;
+    public $password_hash;
 
     public function __construct($row) {
         $this->id = $row['id'];
