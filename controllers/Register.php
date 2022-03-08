@@ -14,34 +14,32 @@ $pwdrepeat = $_POST["rep-password"];
 
 $validator = new Validation($email, $pwd, $pwdrepeat);
 if ($validator->emptyInput()) {
-    header("location: ../register.php?resp='test{}'");
+    header("location: ../register.php?resp='emptyinput'");
     exit();
 }
 
 if ($validator->invalidEmail()) {
-    header("location: ../register.php?resp='test'");
+    header("location: ../register.php?resp='invalidemail'");
     exit();
 }
 
 if ($validator->invalidPassword()) {
-    header("location: ../register.php?resp='test'");
+    header("location: ../register.php?resp='invalidpassword'");
     exit();
 }
 
 if ($validator->passwordsDontMatch()) {
-    header("location: ../register.php?resp='test'");
+    header("location: ../register.php?resp='passwordsdontmatch'");
     exit();
 }
-
-echo "sukces!";
 
 if(User::findByEmail($email)) {
-    header("location: ../register.php?resp='mail zajety'");
+    header("location: ../register.php?resp='emailtaken'");
     exit();
 }
 
-// jesli nie ma takiego usera to zrob konto i essa
+
 User::create([
-    'password' => $pwd,
     'email' => $email,
+    'password' => $pwd,
 ]);
