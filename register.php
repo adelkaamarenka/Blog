@@ -14,7 +14,7 @@
     <div class="wrapper">
         <div class="box">
         <h1 class="header">Register</h1>
-        <form action="./include/register.inc.php" method="post" class="form">
+        <form action="./controllers/Register.php" method="post" class="form">
             <label for="email">Email: </label>
             <input type="text" name="email" id="email">
             <label for="password">Password: </label>
