@@ -13,7 +13,7 @@ class User {
         $this->email = $row['email'];
         $this->password_hash = $row['password'];
     }
-    
+
     /**
      * @param $email
      * @return User|null
