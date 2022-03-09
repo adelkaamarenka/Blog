@@ -2,10 +2,10 @@
     
     <header>
       <div class="header-content">
-        <h1 class="logo">Kocham dupy</h1>
+        <h1 class="logo">My blog</h1>
         <nav>
           <a href="./index.php" class="link home">Home</a>
-          <a href="#" class="link about">Zobacz memy</a>
+          <a href="#" class="link about">About</a>
           <?php 
           if (!isset($_SESSION["id"])) {
             echo '<div class="log-in button">
