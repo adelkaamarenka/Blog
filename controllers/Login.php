@@ -25,14 +25,16 @@ if ($validator->invalidEmail()) {
 
 if(!($user = User::findByEmail($email))) {
     header("location: ../login.php?resp='userdoesntexist");
+    exit();
 }
 
 if (hash('sha256', $pwd) != $user->password_hash) {
     header("location: ../login.php?resp='wrongpassword");
+    exit();
 }
 
 session_start();
 $_SESSION["id"] = $user->id;
-header("location: ../index.php?resp='loggedin");
+header("location: ../index.php");
 
 
